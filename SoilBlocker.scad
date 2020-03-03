@@ -24,16 +24,17 @@ handleRad = 15;
 
 $fn=55;
 
+//
 spacer();
 
-//outerBlocks();
-//translate([0,0,outerBlockZ])
-//    press();
+outerBlocks();
+translate([0,0,outerBlockZ])
+    press();
 
-//translate([outerBlockX+wallThickness*1.5-moldMargin,outerBlockX+wallThickness*1.5+moldMargin/2,fingerGripZ+lipZ+nutZ+wallThickness+moldMargin*3+fingerMargin+fingerGripThickness+25])
-//{
-//    handle();
-//}
+translate([outerBlockX+wallThickness*1.5-moldMargin,outerBlockX+wallThickness*1.5+moldMargin/2,fingerGripZ+lipZ+nutZ+wallThickness+moldMargin*3+fingerMargin+fingerGripThickness+25])
+{
+    handle();
+}
 
 //translate([outerBlockX+wallThickness+wallThickness/2,outerBlockX+wallThickness+wallThickness,outerBlockZ+outerBlockZ+lipZ])
 //cylinder(r=6.35/2, h=101.6);
