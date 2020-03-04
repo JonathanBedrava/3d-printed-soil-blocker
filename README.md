@@ -1,5 +1,5 @@
 # 3d-printed-soil-blocker
-A parametric design for a 3D printed soil blocker, using [OpenScad](http://www.openscad.org/), a free CAD modeller. Some scripting experience desired if you want to customize, but most parameters can be adjusted easily. 
+A parametric design for a 3D printed soil blocker, using [OpenScad](http://www.openscad.org/), a free CAD modeller. Some scripting experience desired if you want to customize, but most parameters can be adjusted easily. Included .stl files represent the default settings. The SoilBlocker_inner.stl may need to be rotated 180 on the X/Y axis to be printable.
 
 ## Modules
 For best results, render and export each of the modules below independently, commenting out the calls to the modules you aren't working with. You may wish to position them in an easily sliceable way (e.g., rotating the press() 180 degrees on X). The four modules for building the main blocker components:
